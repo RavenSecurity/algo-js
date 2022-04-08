@@ -12,3 +12,5 @@ At the end of this training the trainee will have mastered the following aspect 
     Functions
 
 The trainee will then be able to begin its learning of JavaScript in the context of Web Development.
+
+This program is done @BeCode during the Junior Web Developer program.
