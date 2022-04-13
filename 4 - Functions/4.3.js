@@ -1,12 +1,16 @@
 function rand10() {
-    console.log(Math.floor(Math.random() * 11));
+    return Math.floor(Math.random() * 10 + 1);
 }
+
+// let arr = []
 
 function multiRand(n) {
+    let arr = []
     while (n!=0) {
-    rand10();
-    n -= 1;
+    arr.push(rand10());
+    n --;
     }
+    return (arr)
 }
 
-console.log(multiRand(4))
+console.log(multiRand(rand10()))
